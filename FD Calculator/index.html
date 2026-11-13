@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FD Calculator</title>
+</head>
+<body>
+    <div class="card">
+        <h1>FD Calculator</h1>
+        <form id="fdForm">
+            <div>
+            <label for="principal">Principal Amount:</label>
+            <br>
+            <input class="box" id="principal" name="principal" required>
+            </div>
+            <div>
+            <label for="rate">No of months:</label>
+            <input class="box" id="rate" name="rate" step="0.01" required>
+            </div>
+            <div id="result" style="color: white;"></div>
+            <div>
+            <button type="submit" onclick="calculateFD(); return false;">Calculate</button>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

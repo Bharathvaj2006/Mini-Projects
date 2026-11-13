@@ -1,0 +1,26 @@
+body{
+    background: linear-gradient(90deg,rgba(219, 199, 50, 1) 0%, rgba(119, 199, 87, 1) 52%, rgba(69, 186, 166, 1) 100%);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 15rem;
+    height: 35vh;
+    width: 67vw;
+    border: 5px solid white;
+    border-radius: 16px;
+}
+.date{
+    font-size: 105px;
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 10px 30px;
+}
+.time{
+    color: white;
+    font-size: 105px;
+    padding: 10px 30px;
+}
+    

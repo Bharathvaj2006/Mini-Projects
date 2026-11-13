@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 >Currency Converter</h1>
+        <select name="AUD" id="AUD1" >
+        </select>
+        <select name="AUD" id="AUD2" >
+        </select>
+        <br>
+        <input type="number"  id="amount" placeholder="Enter amount">
+        <input type="number"  id="otr" placeholder="Converted amount" >
+        <br>
+        <button onclick="swapCurrencies()">Swap</button>
+        <button onclick="convert()"> Convert</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
